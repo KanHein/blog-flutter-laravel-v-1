@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.7;
+}
+/*  FOR ADMIN HOME CREATION AND EDITING BODY    */
+.admin-home-body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(40deg, #dfdfdf 0%, #dfdfdf 50%, #a8d8c8 50%);
+}
+/*  FOR ARTICLE LIST    */
+.article-lists-body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #dfdfdf, #a8d8e8);
+}
+.article-lists-main{
+    width: 70%;
+    height: 70vh;
+    margin-top: 5%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+/* FOR NAVIGATION */
+nav{
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #888888;
+    box-shadow: 0 5px 10px grey;
+}
+.nav-items-list{
+    list-style: none;
+}
+.nav-item{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #555555;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.2s;
+}
+.nav-link:hover
+{
+    color: #000000;
+    font-weight: bold;
+}
+
+/* FOR ARTICLE CREATION AND EDITING */
+.form-main{
+    width: 50%;
+    height: 70vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+form{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.form-group{
+    display: block;
+    margin: 30px 20px; 
+}
+input[type="text"]{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px grey;
+    border: none;
+}
+textarea{
+    width: 100%;
+    height: 300px;
+    font-size: 18px;
+    padding: 8px;
+    box-shadow: 0 5px 10px grey;
+}
+.post-btn
+{
+    padding: 5px 10px;
+    background: #3d95e7;
+    color: #ffffff;
+    border: 1px solid #3d95e7;
+    font-size: 18px;
+    transition: all 0.2s;
+}
+.post-btn:hover{
+    box-shadow: 0 5px 10px grey;
+    transform: scale(1.05);
+}
+.post-btn-position{
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+/* FOR ARTICLES LIST */
+.list-title{
+    display: inline-block;
+}
+.btn-detail{
+    padding: 5px 20px;
+    background: green;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-edit{
+    padding: 5px 20px;
+    background: #4197fa;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-delete{
+    padding: 5px 20px;
+    background: orangered;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-group{
+    float: right;
+    margin-right: 20px;
+}
+/* FOR ARTICLE LIST */
+.article-item{
+    list-style: none;
+    width: 100%;
+    height: 45px;
+    background: #ffffff;
+    margin-bottom: 20px;
+    padding: 10px 0 0 10px;
+    box-shadow: 0 3px 5px grey;
+}
+/*  FOR DETAIL PAGE */
+
+.detail-body{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+.detail-main{
+    width: 70%;
+    height: 70vh;
+    margin-top: 5%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.heading{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.paragraph{
+    margin-top: 20px;
+}
+.btn-group-bottom{
+    margin-top: 30px !important;
+}
